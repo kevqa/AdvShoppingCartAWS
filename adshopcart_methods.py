@@ -4,8 +4,6 @@ import datetime
 import adshopcart_locators as locators
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.chrome.service import Service
-s = Service(executable_path='./chromedriver.exe')
 from selenium.webdriver.chrome.options import Options
 #----------------------------------------------------------------------------------------------------------------------#
 
